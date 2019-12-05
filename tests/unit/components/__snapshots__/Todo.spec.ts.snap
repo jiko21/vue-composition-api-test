@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo.vue correctly call addTodo when \`追加\` button is clicked 1`] = `
+<div class="count"><input id="todo-input"> <button class="add-btn">追加</button>
+  <ul>
+    <li>
+      <p>アドベントカレンダー</p> <button class="delete-btn">Delete</button>
+    </li>
+    <li>
+      <p>修論</p> <button class="delete-btn">Delete</button>
+    </li>
+    <li>
+      <p>筋トレ</p> <button class="delete-btn">Delete</button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Todo.vue correctly renders initial html 1`] = `
+<div class="count"><input id="todo-input"> <button class="add-btn">追加</button>
+  <ul>
+    <li>
+      <p>アドベントカレンダー</p> <button class="delete-btn">Delete</button>
+    </li>
+    <li>
+      <p>修論</p> <button class="delete-btn">Delete</button>
+    </li>
+    <li>
+      <p>筋トレ</p> <button class="delete-btn">Delete</button>
+    </li>
+  </ul>
+</div>
+`;

@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Count.vue correctly renders initial html 1`] = `
+<div class="count">
+  <h1>0</h1>
+  <div class="button-box"><button class="plus">+</button> <button class="minus">-</button></div>
+</div>
+`;

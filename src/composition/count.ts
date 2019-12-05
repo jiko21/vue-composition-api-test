@@ -1,18 +1,19 @@
 import { ref } from '@vue/composition-api';
 
 const useCount = () => {
-  const count = ref(0);
+  const countValue = ref(0);
   const increment = () => {
-    count.value += 1;
+    countValue.value += 1;
   };
   const decrement = () => {
-    count.value -= 1;
+    countValue.value -= 1;
   };
   return {
-    count,
+    countValue,
     increment,
     decrement,
   };
 };
 
-export default useCount;
+// eslint-disable-next-line import/prefer-default-export
+export { useCount };
